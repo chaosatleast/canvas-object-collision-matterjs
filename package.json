@@ -1,36 +1,32 @@
 {
-  "name": "atom-collision-matterjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "gsap": "^3.12.5",
-    "lucide-react": "^0.468.0",
-    "matter-js": "^0.20.0",
-    "motion": "^11.15.0",
-    "next": "14.2.20",
-    "p5": "^1.11.2",
-    "react": "^18",
-    "react-dom": "^18",
-    "split-type": "^0.3.4"
-  },
-  "devDependencies": {
-    "@types/matter-js": "^0.19.8",
-    "@types/node": "^20",
-    "@types/p5": "^1.7.6",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.20",
-    "postcss": "^8",
-    "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.9",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+    "name": "canvas-object-collision-matterjs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "matter-js": "^0.20.0",
+        "next": "14.2.20",
+        "p5": "^1.11.2",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@types/matter-js": "^0.19.8",
+        "@types/node": "^20",
+        "@types/p5": "^1.7.6",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.20",
+        "postcss": "^8",
+        "prettier": "^3.4.2",
+        "prettier-plugin-tailwindcss": "^0.6.9",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
+    }
 }
